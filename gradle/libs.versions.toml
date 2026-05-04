@@ -1,0 +1,5 @@
+[versions]
+mess = "1.6.6"
+
+[libraries]
+mess = { module = "io.ktor:ktor-server-status-pages", version.ref = "mess" }
